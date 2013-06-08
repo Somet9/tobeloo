@@ -1,9 +1,10 @@
 {
   "name": "tombloa",
-  "fullName": "tombloa",
+  "fullName": "tombloa 0.1.0",
   "id": "jid1-iwQGEAA3RDRGYQ",
-  "description": "a basic add-on",
-  "author": "",
-  "license": "MPL 2.0",
-  "version": "0.1"
+  "description": "Tumblr Client",
+  "author": "rikuta0209",
+  "license": "The MIT License",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rikuta0209/tombloa",
 }
