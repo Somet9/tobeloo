@@ -1,8 +1,7 @@
 Tobeloo
 =======
 Tomblooの影響を強く受けるFirefoxアドオンのTumblrクライアントです。  
-Tomblooの使い勝手はそのままに、Tumblrとの通信をAPIを通して行うようにすることを目的に  
-開発しています。
+Tomblooの使い勝手はそのままに、Tumblrとの通信をAPIを通して行うようにすることを目的に開発しています。
 
 名前の由来
 ----------
@@ -12,8 +11,7 @@ TomblooとTaberarelooへの感謝と尊敬の意を込めて、２つの名前�
 Tumblr以外は可能な限りプラグインで実装
 --------------------------------------
 基本的にはTumblr以外の機能はプラグインとして実装するように考えています。  
-Twitterについても、OAuthのライブラリは本体搭載しているので、このライブラリをプラグイン側から使えるようにし、  
-Twitterの通信処理のほとんどはプラグイン側で行います。  
+Twitterについても、OAuthのライブラリは本体搭載しているので、このライブラリをプラグイン側から使えるようにし、Twitterの通信処理のほとんどはプラグイン側で行います。  
 このような仕様にすることで、何らかの形で問題が発生した場合、その問題の切り分けを容易に行えるようになります。
 プラグイン方式を採用する欠点として、セキュリティ上の問題があります。
 これは、プラグインでできることを増やすほど危険に晒されていますが、各ユーザーに注意して使ってもらうこととします。
@@ -58,3 +56,10 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+### sha1.js
+A JavaScript implementation of the Secure Hash Algorithm, SHA-1, 
+as defined in FIPS PUB 180-1 Version 2.1a Copyright Paul Johnston 2000 - 2002.
+Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet
+Distributed under the BSD License.
+See http://pajhome.org.uk/crypt/md5 for details.
