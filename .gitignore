@@ -216,4 +216,4 @@ pip-log.txt
 
 #隠蔽したいファイル
 hidden/*.*
-data/oauth.json
+data/consumer.json
