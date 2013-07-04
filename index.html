@@ -1,42 +1,37 @@
-<!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Tobeloo : Tobeloo" />
 
-  <title>Tobeloo</title>
-  <meta name="description" content="Tobeloo">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Tobeloo</title>
+  </head>
 
-</head>
+  <body>
 
-<body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/rikuta0209/tobeloo">View on GitHub</a>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Tobeloo</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">Tobeloo</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/rikuta0209/tobeloo/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/rikuta0209/tobeloo/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/rikuta0209/tobeloo" class="code">View Tobeloo on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h1>
+          <h1 id="project_title">Tobeloo</h1>
+          <h2 id="project_tagline">Tobeloo</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/rikuta0209/tobeloo/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/rikuta0209/tobeloo/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
 <a name="tobeloo" class="anchor" href="#tobeloo"><span class="octicon octicon-link"></span></a>Tobeloo</h1>
 
 <p>Tomblooの影響を強く受けるFirefoxアドオンのTumblrクライアントです。<br>
@@ -52,9 +47,11 @@ Tomblooの使い勝手はそのままに、Tumblrとの通信をAPIを通して�
 <a name="tumblr" class="anchor" href="#tumblr"><span class="octicon octicon-link"></span></a>Tumblr以外は可能な限りプラグインで実装</h2>
 
 <p>基本的にはTumblr以外の機能はプラグインとして実装するように考えています。<br>
-Twitterについても、OAuthのライブラリは本体搭載しているので、このライブラリをプラグイン側から使えるようにし、Twitterの通信処理のほとんどはプラグイン側で行います。<br>
-このような仕様にすることで、何らかの形で問題が発生した場合、その問題の切り分けを容易に行えるようになります。
-プラグイン方式を採用する欠点として、セキュリティ上の問題があります。
+Twitterについては、例外的にOAuthの認証の仕組みをプラグイン側で実装することが困難だと考え、本体側で実装します。</p>
+
+<p>このような仕様にすることで、何らかの形で問題が発生した場合、その問題の切り分けを容易に行えるようになります。</p>
+
+<p>プラグイン方式を採用する欠点として、セキュリティ上の問題があります。
 これは、プラグインでできることを増やすほど危険に晒されていますが、各ユーザーに注意して使ってもらうこととします。</p>
 
 <h2>
@@ -110,26 +107,18 @@ as defined in FIPS PUB 180-1 Version 2.1a Copyright Paul Johnston 2000 - 2002.
 Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet
 Distributed under the BSD License.
 See <a href="http://pajhome.org.uk/crypt/md5">http://pajhome.org.uk/crypt/md5</a> for details.</p>
-        </article>
-      </div>
+      </section>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/rikuta0209" class="avatar"><img src="https://secure.gravatar.com/avatar/cd988bba5527330c86b5ff5e10fd4ab0?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/rikuta0209">rikuta0209</a> maintains <a href="https://github.com/rikuta0209/tobeloo">Tobeloo</a></p>
 
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Tobeloo maintained by <a href="https://github.com/rikuta0209">rikuta0209</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/rikuta0209/tobeloo/tarball/master" class="tar">tar</a><a href="https://github.com/rikuta0209/tobeloo/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
+    
 
-  
-</body>
+  </body>
 </html>
